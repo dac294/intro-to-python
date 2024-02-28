@@ -37,7 +37,7 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - admonition
+  # - admonitiondocs
   - codehilite:
       guess_lang: false
   - toc:
@@ -48,7 +48,58 @@ markdown_extensions:
 
 
 nav:
-  - Home: /
+  - Home: index.md
+  - Notes:
+    - maingun API: notes/apis/mailgun.md
+    - CLIs:
+      - brew: notes/clis/brew.md
+      - Chromedriver: notes/clis/chromedriver.md
+      - Conda: notes/clis/conda.md
+      # Assuming there are markdown files for these entries, otherwise remove or add the paths
+      - GIT: notes/clis/git.md
+      - Heroku: notes/clis/heroku.md
+      - PDFtoText: notes/clis/pdftotext.md
+      - Pip: notes/clis/pip.md
+      - Python: notes/clis/python.md
+      - youtube-dl: notes/clis/youtube-dl.md
+    # Assuming there are sections and markdown files for these, otherwise you need to add them
+    - Devtools:
+      - github actions: notes/devtools/github-actions/README.md
+      - code climate: notes/devtools/code-climate.md
+      - git bash: notes/devtools/git-bash.md
+      - git desktop: notes/devtools/git-desktop.md
+      - google APIs: notes/devtools/google-apis.md
+      - Google colab: notes/devtools/google-colab.md
+      - jupyter notebooks: notes/devtools/jupyter-notebooks.md
+      - pycharm: notes/devtools/pycharm.md
+      - travis-ci: notes/devtools/travis-ci.md
+      - VS code: notes/devtools/vs-code.md
+    - environment variables:
+      # Assuming a markdown file for accessing globally
+      - accessing globally: notes/environment-variables/accessing-globally.md
+    # Assuming markdown files for these sections or they should be removed or completed
+    - hardware: notes/hardware/hardware.md
+    - Info systems: notes/info-systems/README.md
+      - Data stores: notes/info-systems/datastores.md
+      - Networks: notes/info-systems/networks.md
+      - People: notes/info-systems/people.md
+      - Processes: notes/info-systems/processes.md
+      - Security-privacy: notes/info-systems/security-privacy.md
+    - python Management: notes/python-mgmt/README.md
+      - Dev lifecycle: notes/python-mgmt/dev-lifecycle.md
+      - tools: notes/python-mgmt/tools.md
+    - Python: notes/python/datatypes/README.md
+      - booleans: notes/python/datatypes/booleans.md
+      - class interhitence: notes/python/datatypes/class-inheritence.md
+      - classes: notes/python/datatypes/classes.md
+      - dates: notes/python/datatypes/dates.md
+      - dictionaries: notes/python/datatypes/dictionaries.md
+      - lists: notes/python/datatypes/lists.md
+      - none: notes/python/datatypes/none.md 
+      - numbers: notes/python/datatypes/numbers.md
+
+
+
 
 
 
